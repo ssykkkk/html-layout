@@ -105,7 +105,10 @@ input[id="open-menu"] {
   }
 }
 }
-
+.wrap {
+  margin-left: 240px;
+  margin-right: 40px;
+}
 // input[type="radio"] {
 //     display: none;
 //   }
@@ -118,10 +121,6 @@ input[id="open-menu"] {
 //   }
 
 // ==========DASHBOARD==========
-.wrap {
-  margin-left: 240px;
-  margin-right: 40px;
-}
 .head-wrap {
   padding-top: 15px;
 }
@@ -650,17 +649,6 @@ footer {
           }
           .menu-list{
             opacity: 1; 
-            li{
-                >a{
-                    width: 100%;
-                    color: $color-grey;
-                }
-            }
-            li:first-child{
-                >a{
-                    color: $color-white;
-                }
-            }
         }
     }
     &:checked + label{
@@ -721,7 +709,7 @@ footer {
     }
   }
   .foot-wrap{
-    margin-left: 20px;
+    margin-left: 0;
   }
 }
 @media (max-width: 722px){

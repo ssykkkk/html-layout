@@ -538,13 +538,6 @@ footer {
   input[id=open-menu]:checked ~ .menu .menu-list {
     opacity: 1;
   }
-  input[id=open-menu]:checked ~ .menu .menu-list li > a {
-    width: 100%;
-    color: grey;
-  }
-  input[id=open-menu]:checked ~ .menu .menu-list li:first-child > a {
-    color: #f6f6f6;
-  }
   input[id=open-menu]:checked + label {
     position: fixed;
     left: 20px;
@@ -594,7 +587,7 @@ footer {
     gap: 90px;
   }
   .foot-wrap {
-    margin-left: 20px;
+    margin-left: 0;
   }
 }
 @media (max-width: 722px) {
