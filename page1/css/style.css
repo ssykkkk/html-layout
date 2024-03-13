@@ -387,6 +387,12 @@ footer {
   .first-line .blocks1 {
     height: 145px;
   }
+  .first-line .blocks1 .block1-content span {
+    font-size: 12px;
+  }
+  .first-line .blocks1 .block1-content span:last-child {
+    font-size: 16px;
+  }
   .second-line .blocks2 .block2-img img {
     width: 150px;
     height: 75px;

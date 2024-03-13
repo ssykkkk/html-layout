@@ -457,10 +457,18 @@ footer {
   }
   @media (max-width: 1064px){
     .first-line{
-        .blocks1{
-            height: 145px;
-        }
-    }
+      .blocks1{
+        height: 145px;
+          .block1-content{
+            span{
+              font-size: 12px;
+            }
+              span:last-child{
+                  font-size: 16px;
+              }
+          }
+      }
+  }
     .second-line {
         .blocks2 {
           .block2-img{
